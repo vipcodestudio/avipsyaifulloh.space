@@ -1,5 +1,6 @@
 import { NextPage } from "next";
-import React from "react";
+import Head from "next/head";
+import React, { Fragment } from "react";
 import styles from "./home.module.scss";
 
 const Home: NextPage = () => {
@@ -69,7 +70,15 @@ const Home: NextPage = () => {
     );
   };
 
-  return <div className={styles.home}>{projectSection()}</div>;
+  return (
+    <Fragment>
+      <Head>
+        <title>Avip Syaifulloh</title>
+      </Head>
+      Coming Soon
+      {/* <div className={styles.home}>{projectSection()}</div> */}
+    </Fragment>
+  );
 };
 
 export default Home;
