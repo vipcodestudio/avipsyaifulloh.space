@@ -17,10 +17,16 @@ const Link: NextPage = () => {
             <h1>Avip Syaifulloh</h1>
           </div>
         </div>
+        <a href="https://kasih-bunga.vercel.app">
+          <div className={styles.card}>
+            <i className="bx bx-sun"></i>
+            kasih-bunga.vercel.app
+          </div>
+        </a>
         <a href="https://www.pythonsandbox.com/code/pythonsandbox_u22014_rOLqE2ivttodAKjDMn25l8au_v0.py">
           <div className={styles.card}>
             <i className="bx bx-sun"></i>
-            Coding Bunga
+            Coding Bunga Python Turtle
           </div>
         </a>
         <a href="https://avipsyaifulloh.space">
